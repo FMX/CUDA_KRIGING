@@ -1,0 +1,87 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: WaferPainter - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/WaferPainter.res" /d "NDEBUG" /d "_AFXDLL" "E:\学习（研三）\画等值线图\Kriging\WaferPainter.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4B.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/WaferPainter.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\学习（研三）\画等值线图\Kriging\3DContourDoc.cpp"
+"E:\学习（研三）\画等值线图\Kriging\3DContourView.cpp"
+"E:\学习（研三）\画等值线图\Kriging\3DGrapher.cpp"
+"E:\学习（研三）\画等值线图\Kriging\ChildFrm.cpp"
+"E:\学习（研三）\画等值线图\Kriging\ContourDoc.cpp"
+"E:\学习（研三）\画等值线图\Kriging\ContourView.cpp"
+"E:\学习（研三）\画等值线图\Kriging\Dib.cpp"
+"E:\学习（研三）\画等值线图\Kriging\GLSurfaceView.cpp"
+"E:\学习（研三）\画等值线图\Kriging\InputReader.cpp"
+"E:\学习（研三）\画等值线图\Kriging\MainFrm.cpp"
+"E:\学习（研三）\画等值线图\Kriging\OptionDlg.cpp"
+"E:\学习（研三）\画等值线图\Kriging\Surfer.cpp"
+"E:\学习（研三）\画等值线图\Kriging\WaferPainter.cpp"
+"E:\学习（研三）\画等值线图\Kriging\WaferPainterDoc.cpp"
+"E:\学习（研三）\画等值线图\Kriging\WaferPainterView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4B.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4C.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/WaferPainter.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\学习（研三）\画等值线图\Kriging\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4C.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4D.tmp" with contents
+[
+opengl32.lib glu32.lib glaux.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/WaferPainter.pdb" /machine:I386 /out:"Release/WaferPainter.exe" 
+".\Release\3DContourDoc.obj"
+".\Release\3DContourView.obj"
+".\Release\3DGrapher.obj"
+".\Release\ChildFrm.obj"
+".\Release\ContourDoc.obj"
+".\Release\ContourView.obj"
+".\Release\Dib.obj"
+".\Release\GLSurfaceView.obj"
+".\Release\InputReader.obj"
+".\Release\MainFrm.obj"
+".\Release\OptionDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\Surfer.obj"
+".\Release\WaferPainter.obj"
+".\Release\WaferPainterDoc.obj"
+".\Release\WaferPainterView.obj"
+".\Release\WaferPainter.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4D.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+3DContourDoc.cpp
+3DContourView.cpp
+3DGrapher.cpp
+ChildFrm.cpp
+ContourDoc.cpp
+ContourView.cpp
+Dib.cpp
+GLSurfaceView.cpp
+InputReader.cpp
+MainFrm.cpp
+OptionDlg.cpp
+Surfer.cpp
+WaferPainter.cpp
+WaferPainterDoc.cpp
+WaferPainterView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+WaferPainter.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,2 @@
+.grd数据是Surfer软件的ASCII文本数据的文件格式
+.CLR也是Surfer软件的颜色表文件

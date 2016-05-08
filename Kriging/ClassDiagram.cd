@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CAboutDlg" Collapsed="true">
+    <Position X="17.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WaferPainter.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C3DContourDoc" Collapsed="true">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAgAAAACAwAAAAAAACBAAIAAA=</HashCode>
+      <FileName>3DContourDoc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C3DContourView" Collapsed="true">
+    <Position X="3.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAACAAACAAAGABAogCFAAAACAAEAAjiASBIAAA=</HashCode>
+      <FileName>3DContourView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TC3DData&lt;T&gt;" Collapsed="true">
+    <Position X="11.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAABAQAAAIAAIACAAAAIAAAABAAAAAQIAAAgAABAAAI=</HashCode>
+      <FileName>3DData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C3DGrapher" Collapsed="true">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMAAAAIlIDABE7DhAhDCQgiATCjCAAMCALBOAClAAiA=</HashCode>
+      <FileName>3DGrapher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseException" Collapsed="true">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChildFrame" Collapsed="true">
+    <Position X="19.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAACAAAgAAAgAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>ChildFrm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CContourDoc" Collapsed="true">
+    <Position X="21" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAACAAAgAAAAKAwAAAAAAACAAAAAAA=</HashCode>
+      <FileName>ContourDoc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CContourView" Collapsed="true">
+    <Position X="15.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAQgEkCAAAAEAAGABgoAAAACACLAABAgjAEAAIAAA=</HashCode>
+      <FileName>ContourView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDib" Collapsed="true">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABgJAAAAAAAgAAABCAgAJAAAFAAsAAAAABAEBAIAA=</HashCode>
+      <FileName>Dib.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGLSurfaceView" Collapsed="true">
+    <Position X="3.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAFEAAAAGABAgABAghAAAAEAAACAAAAYBCA=</HashCode>
+      <FileName>GLSurfaceView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGrapherException" Collapsed="true">
+    <Position X="3" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Grapher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CImageException" Collapsed="true">
+    <Position X="5.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Image.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CImage" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABgIAAAAAAAgAAAAAAAABAAAAAAMAAAAABAEAAQAA=</HashCode>
+      <FileName>Image.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputReader" Collapsed="true">
+    <Position X="19.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAgAAgAAAACAAAAAAAAAEAAAA=</HashCode>
+      <FileName>InputReader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InterpolaterException" Collapsed="true">
+    <Position X="0.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interpolater.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TInterpolater&lt;type&gt;" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interpolater.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TInverseDist&lt;type&gt;" Collapsed="true">
+    <Position X="10" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAEAAAAAAAAAAAABABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InverseDist.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TKriging&lt;T, type&gt;" Collapsed="true">
+    <Position X="13.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAgAAAAAACAgAIAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kriging.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMainFrame" Collapsed="true">
+    <Position X="17.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACgAAAAEAAAAgCAAAiAAAgCAAAgAAAAAAAAAAABA=</HashCode>
+      <FileName>MainFrm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MatrixException" Collapsed="true">
+    <Position X="21" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Matrix.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMatrix&lt;T&gt;" Collapsed="true">
+    <Position X="15.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAABIAQAAAAEAAEgaBAAAEAAABAQgAgAEAAQIA=</HashCode>
+      <FileName>Matrix.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NumericException" Collapsed="true">
+    <Position X="7.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Numeric.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="COptionDlg" Collapsed="true">
+    <Position X="19.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAABBAAAAAEAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>OptionDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSurfer" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkAAUAEAQECAAEAAAIABAAAAgABAgEAAABACBgEAAEU=</HashCode>
+      <FileName>Surfer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CWaferPainterApp" Collapsed="true">
+    <Position X="21" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAABIAAAAIAAAABAAAAAEAEAAAQAAAABAAEAAAA=</HashCode>
+      <FileName>WaferPainter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CWaferPainterDoc" Collapsed="true">
+    <Position X="15.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAABAAICAAAgAAAACAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WaferPainterDoc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CWaferPainterView" Collapsed="true">
+    <Position X="17.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAECABAgAAAgAAAAQAAAAgIAAAAAQA=</HashCode>
+      <FileName>WaferPainterView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="TPoint2D&lt;T&gt;" Collapsed="true">
+    <Position X="1.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>BaseData.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TPoint3D&lt;T&gt;" Collapsed="true">
+    <Position X="7.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAABgAQAAAAA=</HashCode>
+      <FileName>BaseData.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="WeightAndZ" Collapsed="true">
+    <Position X="15.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAQAAAAA=</HashCode>
+      <FileName>InverseDist.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="C3DData" Collapsed="true">
+    <Position X="11.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>3DData.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Point2D" Collapsed="true">
+    <Position X="1.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseData.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Point3D" Collapsed="true">
+    <Position X="7.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseData.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Interpolater" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interpolater.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="InverseDist" Collapsed="true">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InverseDist.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Kriging" Collapsed="true">
+    <Position X="13.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kriging.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="IMAGE_FORMAT" Collapsed="true">
+    <Position X="15.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Image.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
