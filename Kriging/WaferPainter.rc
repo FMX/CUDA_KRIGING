@@ -463,6 +463,7 @@ BEGIN
     IDR_WAFERPTYPE          "\n3Ddata\n3Ddata\n3Ddata Files (*.txt)\n.txt\n3Ddata.Document\n3Ddata Document"
     IDR_CONTOURTYPE         "\nContour\nContour\nContour Files (*.bmp)\n.bmp\nContour.Document\nContour Document"
     IDR_3DCONTOURTYPE       "\n3DContour\n3DContour\n3DContour Files (*.3dc)\n.3dc\n3DContour.Document\n3DContour Document"
+    ID_CUDASTATE            "CUDA SUPPORT STAT "
 END
 
 STRINGTABLE

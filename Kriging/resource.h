@@ -8,6 +8,7 @@
 #define IDR_CONTOURTYPE                 130
 #define IDD_DIALOG_OPTION               130
 #define IDR_3DCONTOURTYPE               131
+#define ID_CUDASTATE                    132
 #define IDC_3DMOVECURSOR                134
 #define IDC_MAGNIFYCURSOR               135
 #define IDI_ICONNEW                     137
@@ -19,7 +20,6 @@
 #define IDC_RADIO_INTERPOLATER          1005
 #define IDC_RADIO_INTERPOLATER2         1006
 #define IDC_OPT_CPU                     1007
-#define IDC_RADIO2                      1008
 #define IDC_OPT_GPU                     1008
 #define ID_2DCONTOUR                    32771
 #define ID_BUTTON32772                  32772

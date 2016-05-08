@@ -13,6 +13,7 @@
 #endif
 
 #include "resource.h"       // main symbols
+#include "GpuAlgo.h"
 
 /////////////////////////////////////////////////////////////////////////////
 // CWaferPainterApp:
@@ -31,6 +32,9 @@ public:
 	int		m_nDiameter;
 	int		m_nInterpolater;
 	int		m_processor;
+	bool	m_nocuda;
+	GpuAlgo cudaIns;
+
 // Overrides
 	// ClassWizard generated virtual function overrides
 	//{{AFX_VIRTUAL(CWaferPainterApp)

@@ -22,6 +22,7 @@ public:
 // Operations
 public:
 	void SetProgressPos(int pos);
+	void ShowCudaStatus();
 
 // Overrides
 	// ClassWizard generated virtual function overrides
@@ -37,6 +38,7 @@ public:
 	virtual void Dump(CDumpContext& dc) const;
 #endif
 
+	
 protected:  // control bar embedded members
 	CStatusBar  m_wndStatusBar;
 	CToolBar    m_wndToolBar;
@@ -46,6 +48,7 @@ protected:
 	//{{AFX_MSG(CMainFrame)
 	afx_msg int OnCreate(LPCREATESTRUCT lpCreateStruct);
 	afx_msg void OnSize(UINT nType, int cx, int cy);
+
 	//}}AFX_MSG
 	DECLARE_MESSAGE_MAP()
 };

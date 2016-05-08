@@ -36,6 +36,8 @@
 =========================================================================*/
 
 
+#include "GeoData.h"
+
 typedef CArray<CGeoPoint,CGeoPoint&> CCurve; //一条等值线曲线的点集的坐标
 typedef CTypedPtrList<CPtrList, CCurve*> CCurveList; //等值线曲线链表(给定某值的等值线不限于一条)
 

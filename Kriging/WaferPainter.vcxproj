@@ -137,6 +137,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\Contour\2DMemAllocator.cpp" />
+    <ClCompile Include="..\Contour\ClrFileDialog.cpp" />
+    <ClCompile Include="..\Contour\ColorLookUpTable.cpp" />
+    <ClCompile Include="..\Contour\Contour.cpp" />
+    <ClCompile Include="..\Contour\ContourDrawer.cpp" />
+    <ClCompile Include="..\Contour\ContourGenerator.cpp" />
+    <ClCompile Include="..\Contour\ContourGeneratorDoc.cpp" />
+    <ClCompile Include="..\Contour\ContourGeneratorView.cpp" />
+    <ClCompile Include="..\Contour\ContourObj.cpp" />
+    <ClCompile Include="..\Contour\ContourTracer.cpp" />
+    <ClCompile Include="..\Contour\ContourValues.cpp" />
+    <ClCompile Include="..\Contour\EditContourLevelDlg.cpp" />
+    <ClCompile Include="..\Contour\GeoData.cpp" />
     <ClCompile Include="3DContourDoc.cpp" />
     <ClCompile Include="3DContourView.cpp" />
     <ClCompile Include="3DGrapher.cpp" />
@@ -164,6 +177,20 @@
     <ResourceCompile Include="WaferPainter.rc" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\Contour\2DMemAllocator.h" />
+    <ClInclude Include="..\Contour\ClrFileDialog.h" />
+    <ClInclude Include="..\Contour\ColorLookUpTable.h" />
+    <ClInclude Include="..\Contour\Contour.h" />
+    <ClInclude Include="..\Contour\ContourDrawer.h" />
+    <ClInclude Include="..\Contour\ContourGenerator.h" />
+    <ClInclude Include="..\Contour\ContourGeneratorDoc.h" />
+    <ClInclude Include="..\Contour\ContourGeneratorView.h" />
+    <ClInclude Include="..\Contour\ContourObj.h" />
+    <ClInclude Include="..\Contour\ContourTracer.h" />
+    <ClInclude Include="..\Contour\ContourValues.h" />
+    <ClInclude Include="..\Contour\EditContourLevelDlg.h" />
+    <ClInclude Include="..\Contour\GeoData.h" />
+    <ClInclude Include="..\Contour\GeoStruct.h" />
     <ClInclude Include="3DContourDoc.h" />
     <ClInclude Include="3DContourView.h" />
     <ClInclude Include="3DData.h" />
@@ -217,4 +244,9 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="WaferPainter.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>

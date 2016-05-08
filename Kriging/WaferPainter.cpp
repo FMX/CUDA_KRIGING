@@ -36,15 +36,10 @@ END_MESSAGE_MAP()
 /////////////////////////////////////////////////////////////////////////////
 // CWaferPainterApp construction
 
-CWaferPainterApp::CWaferPainterApp() : m_nDiameter(0), m_nInterpolater(1), m_processor(0)
+CWaferPainterApp::CWaferPainterApp() : m_nDiameter(0), m_nInterpolater(1), m_processor(0), m_nocuda(true)
 {
 	// TODO: add construction code here,
 	// Place all significant initialization in InitInstance
-	HINSTANCE h= LoadLibrary("gpuLIb.dll");
-	if (h==NULL)
-	{
-		AfxMessageBox("Can not find gpu algorithm library.");
-	}
 }
 
 CWaferPainterApp::~CWaferPainterApp()
@@ -127,7 +122,16 @@ BOOL CWaferPainterApp::InitInstance()
 		return FALSE;
 
 	// The main window has been initialized, so show and update it.
+
 	pMainFrame->ShowWindow(m_nCmdShow);
+
+
+	if (cudaIns.isCUDACapable())
+		m_nocuda = false;
+	else
+		m_nocuda = true;
+	pMainFrame->ShowCudaStatus();
+
 	pMainFrame->UpdateWindow();
 
 	return TRUE;
@@ -142,21 +146,21 @@ class CAboutDlg : public CDialog
 public:
 	CAboutDlg();
 
-// Dialog Data
+	// Dialog Data
 	//{{AFX_DATA(CAboutDlg)
 	enum { IDD = IDD_ABOUTBOX };
 	//}}AFX_DATA
 
 	// ClassWizard generated virtual function overrides
 	//{{AFX_VIRTUAL(CAboutDlg)
-	protected:
+protected:
 	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV support
 	//}}AFX_VIRTUAL
 
-// Implementation
+	// Implementation
 protected:
 	//{{AFX_MSG(CAboutDlg)
-		// No message handlers
+	// No message handlers
 	//}}AFX_MSG
 	DECLARE_MESSAGE_MAP()
 };
@@ -176,7 +180,7 @@ void CAboutDlg::DoDataExchange(CDataExchange* pDX)
 
 BEGIN_MESSAGE_MAP(CAboutDlg, CDialog)
 	//{{AFX_MSG_MAP(CAboutDlg)
-		// No message handlers
+	// No message handlers
 	//}}AFX_MSG_MAP
 END_MESSAGE_MAP()
 
@@ -191,7 +195,7 @@ void CWaferPainterApp::OnAppAbout()
 // CWaferPainterApp message handlers
 
 
-void CWaferPainterApp::OnInteroption() 
+void CWaferPainterApp::OnInteroption()
 {
 	// TODO: Add your command handler code here
 	COptionDlg dlg;
@@ -199,12 +203,12 @@ void CWaferPainterApp::OnInteroption()
 	dlg.m_nInterpolater = m_nInterpolater;
 	dlg.m_processor = m_processor;
 
-	if(dlg.DoModal() == IDOK) {
+	if (dlg.DoModal() == IDOK) {
 		m_nDiameter = dlg.m_nDiameter;
 		m_nInterpolater = dlg.m_nInterpolater;
 		m_processor = dlg.m_processor;
 		char ms[25];
-		sprintf(ms,"processor %d",m_processor);
+		sprintf(ms, "processor %d", m_processor);
 		AfxMessageBox(ms);
 	}
 }

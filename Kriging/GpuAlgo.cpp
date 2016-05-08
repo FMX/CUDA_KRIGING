@@ -48,14 +48,29 @@ void GpuAlgo::unloadLibrary()
 
 void GpuAlgo::kring()
 {
-	return kringCuda();
+	if (usable)
+		return kringCuda();
 }
 
 void GpuAlgo::coutourTrace()
 {
-	return courtourCuda();
+	if (usable)
+		return courtourCuda();
 }
 bool GpuAlgo::isCUDACapable()
 {
-	return check();
+	if (usable)	 {
+		if (!check())
+		{
+			AfxMessageBox("There is no useable cuda device!");
+			usable = false;
+			return false;
+		}
+		else
+		{
+			return true;
+		}
+	}
+	else
+		return false;
 }
