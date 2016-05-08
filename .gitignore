@@ -1,0 +1,13 @@
+Kriging/Debug/
+*.sdf
+*.dsp
+*.dsw
+Contour/Debug/2DMemAllocator.obj
+Contour/Debug/ClrFileDialog.obj
+Contour/Debug/
+Contour/Release/
+*.ipch
+Kriging/Release/
+*.aps
+gpuLIb/Debug/
+*.pdb
