@@ -3,6 +3,10 @@
 //      are changed infrequently
 //
 
+#pragma warning( disable : 4996 )
+#pragma warning( disable : 4244 )
+#pragma warning( disable : 4075 )
+
 #if !defined(AFX_STDAFX_H__880A3C02_D9A5_4898_94C8_210E0A8C5B4B__INCLUDED_)
 #define AFX_STDAFX_H__880A3C02_D9A5_4898_94C8_210E0A8C5B4B__INCLUDED_
 

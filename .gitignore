@@ -6,3 +6,4 @@ Contour/Debug/
 gpuLIb/Debug/
 *.ipch
 Contour/Release/
+*.suo
