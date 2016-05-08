@@ -28,6 +28,8 @@ public:
 
 	CMultiDocTemplate* m_pContourTemplate;
 	CMultiDocTemplate* m_p3DContourTemplate;
+	
+
 
 	int		m_nDiameter;
 	int		m_nInterpolater;

@@ -93,27 +93,33 @@ void C3DContourView::OnInitialUpdate()
 	if(nDia == 1)
 		nDiameter = 300;
 	int nInterpolater = pApp->m_nInterpolater;
+	int processor = pApp->m_processor;
+
 
 	C3DContourDoc* pDoc = GetDocument();
 	vector<Point3D>& input = const_cast<vector<Point3D>&>(pDoc->m_ir.Get3DPoints());
-
-	Interpolater* pInterpolater = NULL;
-	if(nInterpolater == 0)
-		pInterpolater = new InverseDist(200, 4);
-	else if(nInterpolater == 1)
-		pInterpolater = new Kriging(input, 4);
-
 	vector<double> vecZs;
+	
+	if (processor == 0){			//CPU algo
+		Interpolater* pInterpolater = NULL;
+		if (nInterpolater == 0)
+			pInterpolater = new InverseDist(200, 4);
+		else if (nInterpolater == 1)
+			pInterpolater = new Kriging(input, 4);
 
-	for(int j=0; j<=nDiameter; j++) {
-		for(int i=0; i<=nDiameter; i++) {
-			double z = pInterpolater->GetInterpolatedZ(j - nDiameter/2, i - 0.5 * nDiameter, input);
-			vecZs.push_back(z);
+		for (int j = 0; j <= nDiameter; j++) {
+			for (int i = 0; i <= nDiameter; i++) {
+				double z = pInterpolater->GetInterpolatedZ(j - nDiameter / 2, i - 0.5 * nDiameter, input);
+				vecZs.push_back(z);
+			}
 		}
+
+		delete pInterpolater;
 	}
+	else							//GPU algo
+	{														
 
-	delete pInterpolater;
-
+	}
 
 	//取得结果的范围
 	vector<double>::iterator iter2;

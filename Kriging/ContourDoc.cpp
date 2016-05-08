@@ -62,12 +62,10 @@ void CContourDoc::Serialize(CArchive& ar)
 	CContourView* pView = static_cast<CContourView*>(m_viewList.GetHead());
 
 	if (ar.IsStoring())
-	{
-		// TODO: add storing code here
+	{	
 	}
 	else
 	{
-		// TODO: add loading code here
 	}
 }
 

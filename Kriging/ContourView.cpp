@@ -109,29 +109,42 @@ void CContourView::OnInitialUpdate()
 	if(nDia == 1)
 		nDiameter = 300;
 	int nInterpolater = pApp->m_nInterpolater;
+	int processor = pApp->m_processor;
 
 	CWaitCursor wait;
+
+	//TODO 最主要的插值发生在这里
 
 	CContourDoc* pDoc = GetDocument();
 	vector<Point3D>& input = const_cast<vector<Point3D>&>(pDoc->m_ir.Get3DPoints());
 
 	Interpolater* pInterpolater = NULL;
-	if(nInterpolater == 0)
-		pInterpolater = new InverseDist(200, 4);
-	else if(nInterpolater == 1)
-		pInterpolater = new Kriging(input, 4);
 
 	vector<double> vecZs;
-	int nRadius = nDiameter / 2;
-	for(int i=0; i<nDiameter; i++) {
-		for(int j=0; j<nDiameter; j++) {
-			double z = pInterpolater->GetInterpolatedZ(j - nRadius, i - nRadius, input);
-			vecZs.push_back(z);			
+
+	if (processor == 0)		 //CPU interpolater
+	{
+		if (nInterpolater == 0)
+			pInterpolater = new InverseDist(200, 4);
+		else if (nInterpolater == 1)
+			pInterpolater = new Kriging(input, 4);
+
+		
+		int nRadius = nDiameter / 2;
+		for (int i = 0; i < nDiameter; i++) {
+			for (int j = 0; j < nDiameter; j++) {
+				double z = pInterpolater->GetInterpolatedZ(j - nRadius, i - nRadius, input);
+				vecZs.push_back(z);
+			}
 		}
+
+		delete pInterpolater;
+
 	}
+	else			//GPU interpolater
+	{
 
-	delete pInterpolater;
-
+	}
 	vector<double>::iterator iter;
 	iter = max_element(vecZs.begin(), vecZs.end());
 	m_dThickMax = *iter;

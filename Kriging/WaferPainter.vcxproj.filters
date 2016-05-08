@@ -13,12 +13,6 @@
       <UniqueIdentifier>{0bda53aa-3ebc-4467-8fbf-4353cd2669d2}</UniqueIdentifier>
       <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
     </Filter>
-    <Filter Include="2DTracer">
-      <UniqueIdentifier>{4b0ee86e-38cd-4433-87a5-01d73435c412}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="2DTracerImpl">
-      <UniqueIdentifier>{4e6e9e5c-4b36-4a87-a8bc-6f68c033b48c}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="3DContourDoc.cpp">
@@ -71,45 +65,6 @@
     </ClCompile>
     <ClCompile Include="GpuAlgo.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Contour\2DMemAllocator.cpp">
-      <Filter>2DTracerImpl</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Contour\Contour.cpp">
-      <Filter>2DTracerImpl</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Contour\ContourDrawer.cpp">
-      <Filter>2DTracerImpl</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Contour\ContourGenerator.cpp">
-      <Filter>2DTracerImpl</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Contour\ContourGeneratorDoc.cpp">
-      <Filter>2DTracerImpl</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Contour\ContourGeneratorView.cpp">
-      <Filter>2DTracerImpl</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Contour\ContourObj.cpp">
-      <Filter>2DTracerImpl</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Contour\ContourTracer.cpp">
-      <Filter>2DTracerImpl</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Contour\ContourValues.cpp">
-      <Filter>2DTracerImpl</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Contour\GeoData.cpp">
-      <Filter>2DTracerImpl</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Contour\EditContourLevelDlg.cpp">
-      <Filter>2DTracerImpl</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Contour\ColorLookUpTable.cpp">
-      <Filter>2DTracerImpl</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Contour\ClrFileDialog.cpp">
-      <Filter>2DTracerImpl</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -201,48 +156,6 @@
     </ClInclude>
     <ClInclude Include="GpuAlgo.h">
       <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Contour\2DMemAllocator.h">
-      <Filter>2DTracer</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Contour\Contour.h">
-      <Filter>2DTracer</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Contour\ContourDrawer.h">
-      <Filter>2DTracer</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Contour\ContourGenerator.h">
-      <Filter>2DTracer</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Contour\ContourGeneratorDoc.h">
-      <Filter>2DTracer</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Contour\ContourGeneratorView.h">
-      <Filter>2DTracer</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Contour\GeoData.h">
-      <Filter>2DTracer</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Contour\GeoStruct.h">
-      <Filter>2DTracer</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Contour\ContourObj.h">
-      <Filter>2DTracer</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Contour\ContourTracer.h">
-      <Filter>2DTracer</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Contour\ContourValues.h">
-      <Filter>2DTracer</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Contour\EditContourLevelDlg.h">
-      <Filter>2DTracer</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Contour\ColorLookUpTable.h">
-      <Filter>2DTracer</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Contour\ClrFileDialog.h">
-      <Filter>2DTracer</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
