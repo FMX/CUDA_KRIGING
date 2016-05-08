@@ -1,0 +1,8 @@
+*.obj
+Contour/Debug/
+*.dsp
+*.dsw
+*.sdf
+gpuLIb/Debug/
+*.ipch
+Contour/Release/

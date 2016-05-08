@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "contour", "WaferPainter.vcxproj", "{3D6B446B-D4F7-41DE-AB42-5AD9E69CF166}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D2978ECA-7265-4368-8204-AFD08BE41429} = {D2978ECA-7265-4368-8204-AFD08BE41429}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gpuLIb", "..\gpuLIb\gpuLIb.vcxproj", "{D2978ECA-7265-4368-8204-AFD08BE41429}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ContourGenerator", "..\Contour\ContourGenerator.vcxproj", "{E8E53E94-0915-4A69-B9E8-FE095830A5F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D6B446B-D4F7-41DE-AB42-5AD9E69CF166}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3D6B446B-D4F7-41DE-AB42-5AD9E69CF166}.Debug|Win32.Build.0 = Debug|Win32
+		{3D6B446B-D4F7-41DE-AB42-5AD9E69CF166}.Debug|x64.ActiveCfg = Debug|Win32
+		{3D6B446B-D4F7-41DE-AB42-5AD9E69CF166}.Release|Win32.ActiveCfg = Release|Win32
+		{3D6B446B-D4F7-41DE-AB42-5AD9E69CF166}.Release|Win32.Build.0 = Release|Win32
+		{3D6B446B-D4F7-41DE-AB42-5AD9E69CF166}.Release|x64.ActiveCfg = Release|Win32
+		{D2978ECA-7265-4368-8204-AFD08BE41429}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D2978ECA-7265-4368-8204-AFD08BE41429}.Debug|Win32.Build.0 = Debug|Win32
+		{D2978ECA-7265-4368-8204-AFD08BE41429}.Debug|x64.ActiveCfg = Debug|x64
+		{D2978ECA-7265-4368-8204-AFD08BE41429}.Debug|x64.Build.0 = Debug|x64
+		{D2978ECA-7265-4368-8204-AFD08BE41429}.Release|Win32.ActiveCfg = Release|Win32
+		{D2978ECA-7265-4368-8204-AFD08BE41429}.Release|Win32.Build.0 = Release|Win32
+		{D2978ECA-7265-4368-8204-AFD08BE41429}.Release|x64.ActiveCfg = Release|x64
+		{D2978ECA-7265-4368-8204-AFD08BE41429}.Release|x64.Build.0 = Release|x64
+		{E8E53E94-0915-4A69-B9E8-FE095830A5F3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E8E53E94-0915-4A69-B9E8-FE095830A5F3}.Debug|Win32.Build.0 = Debug|Win32
+		{E8E53E94-0915-4A69-B9E8-FE095830A5F3}.Debug|x64.ActiveCfg = Debug|Win32
+		{E8E53E94-0915-4A69-B9E8-FE095830A5F3}.Release|Win32.ActiveCfg = Release|Win32
+		{E8E53E94-0915-4A69-B9E8-FE095830A5F3}.Release|Win32.Build.0 = Release|Win32
+		{E8E53E94-0915-4A69-B9E8-FE095830A5F3}.Release|x64.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

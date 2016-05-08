@@ -1,0 +1,8 @@
+下载说明.htm
+*.ipch
+UpgradeLog.htm
+WaferPainter.sdf
+Debug/WaferPainter.log
+Debug/
+WaferPainter.opensdf
+Release/
