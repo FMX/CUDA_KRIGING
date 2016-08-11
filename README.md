@@ -1,1 +1,1 @@
-Hello Final_For_University
+克力金算法，CPU版本和CUDA版本的算法，能够自动生成等高线，能够实现等值线追踪绘制。
